@@ -1,6 +1,6 @@
 class Pet: # Create the pet class
     def __init__(self, name): # Initialize the instance
-        self.name = "Waffles" # Stored the pet's name to call upon later
+        self.name = "Olivier" # Stored the pet's name to call upon later
         self.hunger = 5 # The pet's starting hunger level is 5, middle point between 0 and 10
         self.energy = 5 # The pet's starting energy level is 5, middle point between 0 and 10
         self.happiness = 5 # The pet's starting energy level is 5, middle point between 0 and 10
@@ -13,7 +13,7 @@ class Pet: # Create the pet class
 
 
     def sleep(self):
-        self.energy = min(self.energy + 5, 10)
+        self.energy = min(self.energy + 5, 17)
 
     def play(self):
         self.energy = max(self.energy - 2, 0)
